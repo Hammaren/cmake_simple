@@ -1,0 +1,4 @@
+set(TOOLCHAIN_BIN_PATH	"/usr/bin")
+
+set(CMAKE_C_COMPILER ${TOOLCHAIN_BIN_PATH}/gcc)
+
