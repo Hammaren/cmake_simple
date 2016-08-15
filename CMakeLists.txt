@@ -9,8 +9,6 @@ set(CFLAGS	"-std=gnu99"
 
 set(CMAKE_C_FLAGS	"${CMAKE_C_FLAGS} ${CFLAGS}")
 
-set(APP_NAME	"learncmake")
-
 add_subdirectory(print_module)
 add_subdirectory(app1)
 add_subdirectory(app2)
